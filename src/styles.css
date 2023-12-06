@@ -1,0 +1,42 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#buttons-stack {
+  overflow-y: auto !important;
+}
+
+/* width */
+#buttons-stack::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+#buttons-stack::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+#buttons-stack::-webkit-scrollbar-thumb {
+  background: #c5c5c5;
+}
+
+.centerDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+
+.css-jd1zyo-MuiSelect-select-MuiInputBase-input-MuiInput-input.MuiSelect-select {
+  width:auto;
+  margin-inline: auto;
+}
